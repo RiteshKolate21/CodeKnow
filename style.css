@@ -1,0 +1,34 @@
+.badge-outside {
+  position: absolute;
+  top: -10px;     /* move outside vertically */
+  right: -15px;   /* move outside horizontally */
+  padding: 0.35em 0.65em;
+  font-size: 0.75rem;
+  border-radius: 50rem;
+  color: #fff;
+}
+.in{
+  transition: all 0.2s ease-in;
+}
+.in:hover
+{
+    z-index: 0;
+    transform: scale(1.1);
+  background-color: rgb(255, 255, 255);
+  color: black;
+
+}
+button{
+  transition: all 0.8s ease-in;
+}
+#mainp
+{
+  margin-top: 80px;
+}
+footer{
+  margin-bottom:80px;
+}
+
+#after-card-p{
+  margin-top: 1rem;
+}
